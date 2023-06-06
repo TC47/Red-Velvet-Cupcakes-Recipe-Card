@@ -1,0 +1,118 @@
+/* ========== CHALLENGE 1 ========== //
+//
+// Add a class attribute of highlight to the span
+// Style this span in the CSS
+//      -- set a background color of light pink
+//      -- set a color of darkred
+//      -- set a padding of 0 pixels (top and bottom), 3px (left and right)
+//      -- set a margin of 0 pixels (top and bottom), -3px (left and right)
+ ------------------------------------------------------------------------*/
+
+/* ========== CHALLENGE 2 ========== //
+//
+// Add a selector for the recipe-info class
+//      -- set its display to inline-block
+//      -- set its width to 380px
+// Update the link
+//      -- set its display to inline-block
+//      -- remove the margin
+// Add a selector for the list items
+//      -- set their display to inline-block
+// Fix any alignment issues you notice
+--------------------------------------------------------------------------*/
+
+
+
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2a3d1;
+}
+
+img {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkred;
+    margin-top: 0px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.recipe-card {
+    width: 800px; 
+    background-color: #FFFAFA;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+}
+
+.recipe-content {
+    padding: 20px;
+    display: inline-block;
+    width: 580px;
+    vertical-align: top;
+}
+
+.recipe-card h2,
+.recipe-card a {
+    text-transform: uppercase;
+}
+
+.recipe-card.feature {
+    border: 2px solid darkred;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+ul li h2 {
+    font-size: 16px;
+}
+
+.recipe-card a {
+    background-color: #fc9400;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    vertical-align: top;
+}
+
+.highlight {
+    background-color: lightpink;
+    color: darkred;
+    padding: 0px 3px;
+    margin: 0px -3px;
+}
+
+.recipe-info {
+    display: inline-block;
+    width: 380px;
+}
+
+
+
+
+
